@@ -1,3 +1,16 @@
+//
+
+black: #201d20
+tan: #fdc886
+cream: #ffeecb
+yellow: #faa51a
+red: #cd6a42
+purple: #59495a
+
+//
+
 html {
-  font-family: sans-serif;
+  font-family: filson-pro, sans-serif;
+   font-style: normal;
+    font-weight: 100;
 } 
