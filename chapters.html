@@ -2,10 +2,18 @@
 layout: default
 ---
 
-<a href="{{ "/" | relative_url }}">ARE YOU READY FOR A NEW CLIENT?</a>
-<a href="{{ "/questions.html" | relative_url }}">THREE BIG QESTIONS</a>
-<a href="{{ "/rate.html" | relative_url }}">CALCULATE YOUR RATE</a>
-<a href="{{ "/onboarding.html" | relative_url }}">CLIENT ON-BOARDING</a>
-<a href="{{ "/presenting.html" | relative_url }}">PROJECT PRESENTATION</a>
-<a href="{{ "/offboarding.html" | relative_url }}">CLIENT OFF-BOARDING</a>
-<a href="{{ "/" | relative_url }}">MORE EXTERNAL RESOURCES</a>
+<main class="chapters">
+  <h1 class="logotype" aria-label="The Freelancer’s Journey">
+    {% include logo.svg %}
+  </h1>
+
+  <ol class="chapter-list">
+    <li><a href="{{ "/" | relative_url }}">ARE YOU READY FOR A NEW CLIENT?</a></li>
+    <li><a href="{{ "/questions.html" | relative_url }}">THREE BIG QUESTIONS</a></li>
+    <li><a href="{{ "/rate.html" | relative_url }}">CALCULATE YOUR RATE</a></li>
+    <li><a href="{{ "/onboarding.html" | relative_url }}">CLIENT ON-BOARDING</a></li>
+    <li><a href="{{ "/presenting.html" | relative_url }}">PROJECT PRESENTATION</a></li>
+    <li><a href="{{ "/offboarding.html" | relative_url }}">CLIENT OFF-BOARDING</a></li>
+    <li><a href="{{ "/" | relative_url }}">MORE EXTERNAL RESOURCES</a></li>
+  </ol>
+</main>

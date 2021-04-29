@@ -23,6 +23,10 @@ body {
   max-width: 1000px;
 }
 
+a {
+  color: var(--text-color);
+}
+
 nav {
   text-align: right;
 }
@@ -37,11 +41,11 @@ nav a {
   color: var(--text-color);
 }
 
-.homepage h1 {
+h1.logotype {
   margin: 5rem 0 3rem;
 }
 
-.homepage h1 svg {
+h1.logotype svg {
   max-width: 70%;
   height: auto;
   margin: 0 auto;
@@ -51,4 +55,21 @@ nav a {
 .homepage p {
   max-width: 80ch;
   margin: 0 auto;
+}
+
+.chapters svg path {
+  fill: var(--text-color);
+}
+
+.chapter-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 40ch;
+  font-size: 1.3em;
+  line-height: 2.1;
+}
+
+.chapter-list a {
+  text-decoration: none;
 }
