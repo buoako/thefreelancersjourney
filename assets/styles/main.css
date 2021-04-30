@@ -7,6 +7,10 @@ red: #cd6a42
 purple: #59495a
 */
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   --text-color: #59495a;
 
@@ -15,12 +19,14 @@ html {
   font-weight: 100;
   line-height: 1.4;
   color: var(--text-color);
+  height: 100%;
 }
 
 body {
   margin: 0 auto;
   padding: 1.5rem;
   max-width: 1000px;
+  min-height: 100%;
 }
 
 a {
@@ -72,4 +78,53 @@ h1.logotype svg {
 
 .chapter-list a {
   text-decoration: none;
+}
+
+.content-page {
+  background-color: #faa51a;
+}
+
+.content-page body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-page main {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.content-page h1 {
+  text-align: center;
+}
+
+.content-page .content-box {
+  background-color: #201d20;
+  color: #ffeecb;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.content-page .content-box :first-child {
+  margin-top: 0;
+}
+
+.content-page .content-box :last-child {
+  margin-bottom: 0;
+}
+
+.content-page .next-container {
+  text-align: right;
+  margin: 1rem 0;
+}
+
+.content-page .next {
+  display: inline-block;
+  background-color: #201d20;
+  padding: .5rem 1rem;
+  border-radius: 0 1.4rem 1.4rem 0;
+  color: #ffeecb;
+  text-decoration: none;
+  font-size: 1.2em;
 }
