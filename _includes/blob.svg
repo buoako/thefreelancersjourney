@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71.93" height="71.437" viewBox="0 0 71.93 71.437">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_229" data-name="Rectangle 229" width="51.519" height="52.96" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Logo_Small_BG" data-name="Logo Small BG" transform="translate(26.486 71.619) rotate(59)">
+    <g id="Logo_Small_BG-2" data-name="Logo Small BG" transform="translate(-51.65 -53.095)" clip-path="url(#clip-path)">
+      <path id="Path_11790" data-name="Path 11790" d="M43.467,8.157C47.058,11.3,48.7,15.139,50.15,19.328A23.839,23.839,0,0,1,51.1,32.2c-.9,4.339-.6,9.725-3.74,13.316s-8.03,5.436-12.269,6.882-8.877.05-13.366-.848-9.526-.7-13.117-3.84a27.378,27.378,0,0,1-7.431-11.92,27.905,27.905,0,0,1-.5-13.765c.9-4.489,4.289-7.581,7.431-11.122s5.536-8.329,9.775-9.725A29.317,29.317,0,0,1,32,.676c4.489.9,7.93,4.339,11.471,7.481" transform="translate(-0.027 -0.027)" fill="#faa51a"/>
+    </g>
+  </g>
+</svg>

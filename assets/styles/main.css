@@ -11,10 +11,14 @@ purple: #59495a
   box-sizing: border-box;
 }
 
+.is-hidden {
+  display: none;
+}
+
 html {
   --text-color: #59495a;
 
-  font-family: filson-pro, sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 100;
   line-height: 1.4;
@@ -52,27 +56,41 @@ h1.logotype {
 }
 
 h1.logotype svg {
-  max-width: 70%;
+  max-width: 90%;
   height: auto;
   margin: 0 auto;
   display: block;
 }
 
+.homepage{
+  padding: 5em 0 0 0;
+}
+
 .homepage p {
+  font-size: 18pt;
   max-width: 80ch;
   margin: 0 auto;
+  padding: .5em 0 0 0;
+}
+
+.chapters{
+  padding: 5em 0 4em 0;
 }
 
 .chapters svg path {
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
   fill: var(--text-color);
 }
 
 .chapter-list {
+  padding: 10em 0em 0em 0em;
   list-style: none;
-  margin: 0 auto;
-  padding: 0;
+  margin: 0 0 0 2em;
   max-width: 40ch;
-  font-size: 1.3em;
+  font-size: 2.8em;
   line-height: 2.1;
 }
 
@@ -83,6 +101,7 @@ h1.logotype svg {
 .content-page {
   background-color: #faa51a;
 }
+
 
 .content-page body {
   display: flex;
@@ -97,13 +116,14 @@ h1.logotype svg {
 
 .content-page h1 {
   text-align: center;
+  font-weight: bold;
 }
 
 .content-page .content-box {
   background-color: #201d20;
   color: #ffeecb;
   border-radius: 2rem;
-  padding: 2rem;
+  padding: 4rem;
 }
 
 .content-page .content-box :first-child {
@@ -127,4 +147,45 @@ h1.logotype svg {
   color: #ffeecb;
   text-decoration: none;
   font-size: 1.2em;
+}
+
+.blob{
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.presenting{
+  background-color: #59495a;
+  color: #faa51a;
+}
+
+.presenting .next{
+  color: #59495a;
+  background-color: #faa51a;
+  font-weight: bold;
+}
+
+.presenting a {
+  color: #ffeecb;
+}
+
+.offboarding{
+  background-color: #201d20;
+  color: #ffeecb;
+}
+
+.offboarding .next{
+  color: #ffeecb;
+  background-color: #cd6a42;
+  font-weight: bold;
+}
+
+.offboarding a {
+  color: #ffeecb;
+}
+
+.offboarding .content-box{
+  background-color: #cd6a42;
 }
