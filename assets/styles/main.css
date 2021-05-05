@@ -165,6 +165,10 @@ h1.logotype svg {
   cursor: pointer;
 }
 
+.blob-container {
+  display: flex;
+}
+
 .presenting{
   background: #59495a;
   color: #faa51a;
