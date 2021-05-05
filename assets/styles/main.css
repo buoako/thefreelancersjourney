@@ -12,7 +12,7 @@ purple: #59495a
 }
 
 .is-hidden {
-  display: none;
+  display: none !important;
 }
 
 html {
@@ -108,7 +108,7 @@ h1.logotype svg {
 }
 
 .content-page {
-  background-color: #faa51a;
+  background: #faa51a;
 }
 
 
@@ -128,18 +128,18 @@ h1.logotype svg {
   font-weight: bold;
 }
 
-.content-page .content-box {
+.content-box {
   background-color: #201d20;
   color: #ffeecb;
   border-radius: 2rem;
   padding: 4rem;
 }
 
-.content-page .content-box :first-child {
+.content-box :first-child {
   margin-top: 0;
 }
 
-.content-page .content-box :last-child {
+.content-box :last-child {
   margin-bottom: 0;
 }
 
@@ -166,7 +166,7 @@ h1.logotype svg {
 }
 
 .presenting{
-  background-color: #59495a;
+  background: #59495a;
   color: #faa51a;
 }
 
@@ -181,7 +181,7 @@ h1.logotype svg {
 }
 
 .offboarding{
-  background-color: #201d20;
+  background: #201d20;
   color: #ffeecb;
 }
 
@@ -197,4 +197,49 @@ h1.logotype svg {
 
 .offboarding .content-box{
   background-color: #cd6a42;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 2rem;
+  background-color: #faa51a;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: dialog-slide-up 0.3s ease;
+}
+
+.overlay .close {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 2rem;
+  appearance: none;
+  background: transparent;
+  border: none;
+  color: #ffeecb;
+  font-weight: bold;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.overlay .content-box {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@keyframes dialog-slide-up {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
